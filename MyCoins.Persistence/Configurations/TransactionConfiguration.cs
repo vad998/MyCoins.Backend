@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using MyCoins.Domain;
+using MyCoins.Domain.Entities;
 
 namespace MyCoins.Persistence.Configurations
 {

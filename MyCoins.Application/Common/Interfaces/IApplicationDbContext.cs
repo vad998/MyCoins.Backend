@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyCoins.Domain;
+using MyCoins.Domain.Entities;
 
 namespace MyCoins.Application.Common.Interfaces
 {
