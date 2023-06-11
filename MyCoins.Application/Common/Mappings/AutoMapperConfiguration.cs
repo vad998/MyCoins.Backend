@@ -21,12 +21,12 @@ namespace MyCoins.Application.Common.Mappings
                     mc.AddProfile(mappingProfile);
                 }
             });
-            //mapperConfiguration.AssertConfigurationIsValid();
+            // mapperConfiguration.AssertConfigurationIsValid();
             IMapper mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
         }
         public static IEnumerable<Type> GetMappingProfilesTypeCollectionFromAssembly(this Assembly assembly) =>
-            assembly.GetTypes().Where(t => t.Namespace == "NSYS.Accounting.Application.MappingProfiles"
+            assembly.GetTypes().Where(t => t.Namespace == "MyCoins.Application.MappingProfiles"
                                 && t.GetCustomAttribute<CompilerGeneratedAttribute>() == null
                                 && t.GetCustomAttribute<NonMappedProfileAttribute>() == null);
     }
