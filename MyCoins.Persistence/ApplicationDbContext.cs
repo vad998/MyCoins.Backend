@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using MyCoins.Application.Common.Interfaces;
-using MyCoins.Domain;
-using System;
+using MyCoins.Domain.Entities;
 using System.Reflection;
 
 namespace MyCoins.Persistence
