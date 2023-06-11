@@ -9,7 +9,7 @@ namespace MyCoins.Persistence
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
-        public DbSet<Coin> Coins { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
 
         public ApplicationDbContext(DbContextOptions options)
             : base(options) { }

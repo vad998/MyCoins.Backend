@@ -5,7 +5,7 @@ namespace MyCoins.Application.Common.Interfaces
 {
     public interface IApplicationDbContext
     {
-        DbSet<Coin> Coins { get; set; }
+        DbSet<Transaction> Transactions { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
