@@ -9,11 +9,12 @@ namespace MyCoins.Application.Entities.Transactions.Commands.DeleteTransation
 
         public class DeleteTransationCommandHandler : IRequestHandler<DeleteTransationCommand>
         {
-            public DeleteTransationCommandHandler() {}
+            public DeleteTransationCommandHandler() { }
 
             public async Task Handle(DeleteTransationCommand request, CancellationToken cancellationToken)
             {
                 throw new NotImplementedException();
             }
         }
+    }
 }
