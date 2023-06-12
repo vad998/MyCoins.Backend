@@ -16,4 +16,9 @@
     <ProjectReference Include="..\MyCoins.Domain\MyCoins.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Facades\InterfaceFacades\" />
+    <Folder Include="Facades\ConcreteFasades\" />
+  </ItemGroup>
+
 </Project>
